@@ -1,0 +1,170 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table aero_pd_payments'
+    - builder_table_create_aero_pd_payments.php
+1.0.3:
+    - 'Updated table aero_pd_payments'
+    - builder_table_update_aero_pd_payments.php
+1.0.4:
+    - 'Updated table aero_pd_payments'
+    - builder_table_update_aero_pd_payments_2.php
+1.0.5:
+    - 'Updated table aero_pd_payments'
+    - builder_table_update_aero_pd_payments_3.php
+1.0.6:
+    - 'Updated table aero_pd_payments'
+    - builder_table_update_aero_pd_payments_4.php
+1.0.7:
+    - 'Updated table aero_pd_payments'
+    - builder_table_update_aero_pd_payments_5.php
+1.0.8:
+    - 'Created table aero_pd_branches'
+    - builder_table_create_aero_pd_branches.php
+1.0.9:
+    - 'Created table aero_pd_categories'
+    - builder_table_create_aero_pd_categories.php
+1.0.10:
+    - 'Created table aero_pd_extras'
+    - builder_table_create_aero_pd_extras.php
+1.0.11:
+    - 'Created table aero_pd_products'
+    - builder_table_create_aero_pd_products.php
+1.0.12:
+    - 'Created table aero_pd_schedule'
+    - builder_table_create_aero_pd_schedule.php
+1.0.13:
+    - 'Created table aero_pd_products_branches'
+    - builder_table_create_aero_pd_products_branches.php
+1.0.14:
+    - 'Updated table aero_pd_branches'
+    - builder_table_update_aero_pd_branches.php
+1.0.15:
+    - 'Updated table aero_pd_branches'
+    - builder_table_update_aero_pd_branches_2.php
+1.0.16:
+    - 'Updated table aero_pd_schedule'
+    - builder_table_update_aero_pd_schedule.php
+1.0.17:
+    - 'Updated table aero_pd_products'
+    - builder_table_update_aero_pd_products.php
+1.0.18:
+    - 'Updated table aero_pd_extras'
+    - builder_table_update_aero_pd_extras.php
+1.0.19:
+    - 'Updated table aero_pd_extras'
+    - builder_table_update_aero_pd_extras_2.php
+1.0.20:
+    - 'Updated table aero_pd_products'
+    - builder_table_update_aero_pd_products_2.php
+1.0.21:
+    - 'Created table aero_pd_products_extras'
+    - builder_table_create_aero_pd_products_extras.php
+1.0.22:
+    - 'Created table aero_pd_configuracion'
+    - builder_table_create_aero_pd_configuracion.php
+1.0.23:
+    - 'Created table aero_pd_theme'
+    - builder_table_create_aero_pd_theme.php
+1.0.24:
+    - 'Updated table aero_pd_theme'
+    - builder_table_update_aero_pd_theme.php
+1.0.25:
+    - 'Updated table aero_pd_theme'
+    - builder_table_update_aero_pd_theme_2.php
+1.0.26:
+    - 'Created table aero_pd_coupons'
+    - builder_table_create_aero_pd_coupons.php
+1.0.27:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons.php
+1.0.28:
+    - 'Created table aero_pd_products_coupons'
+    - builder_table_create_aero_pd_products_coupons.php
+1.0.29:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_2.php
+1.0.30:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_3.php
+1.0.31:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_4.php
+1.0.32:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_5.php
+1.0.33:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_6.php
+1.0.34:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_7.php
+1.0.35:
+    - 'Updated table aero_pd_coupons'
+    - builder_table_update_aero_pd_coupons_8.php
+1.0.36:
+    - 'Created table aero_pd_drivers'
+    - builder_table_create_aero_pd_drivers.php
+1.0.37:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers.php
+1.0.38:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers_2.php
+1.0.39:
+    - 'Created table aero_pd_vehicles'
+    - builder_table_create_aero_pd_vehicles.php
+1.0.40:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers_3.php
+1.0.41:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers_4.php
+1.0.42:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers_5.php
+1.0.43:
+    - 'Created table aero_pd_branches_drivers'
+    - builder_table_create_aero_pd_branches_drivers.php
+1.0.44:
+    - 'Updated table aero_pd_branches_drivers'
+    - builder_table_update_aero_pd_branches_drivers.php
+1.0.45:
+    - 'Created table aero_pd_customize'
+    - builder_table_create_aero_pd_customize.php
+1.0.46:
+    - 'Updated table aero_pd_customize'
+    - builder_table_update_aero_pd_customize.php
+1.0.47:
+    - 'Updated table aero_pd_customize'
+    - builder_table_update_aero_pd_customize_2.php
+1.0.48:
+    - 'Updated table aero_pd_customize'
+    - builder_table_update_aero_pd_customize_3.php
+1.0.49:
+    - 'Created table aero_pd_reservations'
+    - builder_table_create_aero_pd_reservations.php
+1.0.50:
+    - 'Updated table aero_pd_reservations'
+    - builder_table_update_aero_pd_reservations.php
+1.0.51:
+    - 'Updated table aero_pd_reservations'
+    - builder_table_update_aero_pd_reservations_2.php
+1.0.52:
+    - 'Updated table aero_pd_reservations'
+    - builder_table_update_aero_pd_reservations_3.php
+1.0.53:
+    - 'Updated table aero_pd_customize'
+    - builder_table_update_aero_pd_customize_4.php
+1.0.54:
+    - 'Updated table aero_pd_customize'
+    - builder_table_update_aero_pd_customize_5.php
+1.0.55:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers_6.php
+1.0.56:
+    - 'Updated table aero_pd_drivers'
+    - builder_table_update_aero_pd_drivers_7.php
+1.0.57:
+    - 'Updated table aero_pd_products'
+    - builder_table_update_aero_pd_products_3.php

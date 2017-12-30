@@ -1,0 +1,11 @@
+name: Customize
+modelClass: Aero\Pd\Models\Customize
+form: $/aero/pd/models/customize/fields.yaml
+defaultRedirect: aero/pd/customize
+create:
+    redirect: 'aero/pd/customize/update/:id'
+    redirectClose: aero/pd/customize
+update:
+    redirect: aero/customize/update/1
+    redirectClose: backend
+preview: {  }

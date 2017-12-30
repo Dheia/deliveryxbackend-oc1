@@ -1,0 +1,11 @@
+list: $/aero/pd/models/vehicles/columns.yaml
+modelClass: Aero\Pd\Models\Vehicles
+title: Vehicles
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'aero/pd/vehicles/update/:id'

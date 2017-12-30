@@ -1,0 +1,11 @@
+list: $/aero/pd/models/reservations/columns.yaml
+modelClass: Aero\Pd\Models\Reservations
+title: Reservations
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'aero/pd/reservations/update/:id'

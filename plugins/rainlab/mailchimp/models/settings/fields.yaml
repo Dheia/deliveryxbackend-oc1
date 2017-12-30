@@ -1,0 +1,5 @@
+fields:
+  api_key:
+    label: MailChimp API key
+    span: left
+    commentAbove: Solicite su API key en http://admin.mailchimp.com/account/api/

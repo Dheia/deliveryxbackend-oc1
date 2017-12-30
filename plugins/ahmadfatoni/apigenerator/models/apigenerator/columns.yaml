@@ -1,0 +1,9 @@
+columns:
+    name:
+        label: 'Nombre de Api'
+        type: text
+        searchable: true
+        sortable: true
+    endpoint:
+        label: 'Url de solicitud'
+        type: text

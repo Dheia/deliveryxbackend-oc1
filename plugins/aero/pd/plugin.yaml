@@ -1,0 +1,89 @@
+plugin:
+    name: 'aero.pd::lang.plugin.name'
+    description: 'aero.pd::lang.plugin.description'
+    author: aero
+    icon: oc-icon-dashboard
+    homepage: ''
+permissions:
+    pd_payments:
+        tab: 'Pimienta Dashboard'
+        label: 'Pasarelas de pago'
+    pd_branches:
+        tab: 'Pimienta Dashboard'
+        label: Sucursales
+    pd_shedule:
+        tab: 'Pimienta Dashboard'
+        label: Horarios
+    pd_products:
+        tab: 'Pimienta Dashboard'
+        label: Productos
+    pd_extras:
+        tab: 'Pimienta Dashboard'
+        label: 'Extras de producto'
+    pd_theme:
+        tab: 'Pimienta Dashboard'
+        label: 'Personalizar tema'
+    pd_coupons:
+        tab: 'Pimienta Dashboard'
+        label: Cupones
+    pd_drivers:
+        tab: 'Pimienta Dashboard'
+        label: 'Conductores de delivery'
+    pd_vehicles:
+        tab: 'Pimienta Dashboard'
+        label: 'Tipos de vehículos para delivery'
+    pd_reservation:
+        tab: 'Pimienta Dashboard'
+        label: Reservaciones
+    pd_customize:
+        tab: 'Pimienta Dashboard'
+        label: 'Personalizar sistema'
+navigation:
+    menuBranches:
+        label: Sucursales
+        url: aero/pd/branches
+        icon: icon-cutlery
+        sideMenu:
+            menuBranchesList:
+                label: Sucursales
+                url: aero/pd/branches
+                icon: icon-building
+            menuSchedule:
+                label: Horarios
+                url: aero/pd/schedule
+                icon: icon-clock-o
+    menuProducts:
+        label: Productos
+        url: aero/pd/products
+        icon: icon-shopping-cart
+        sideMenu:
+            menuProductsList:
+                label: Productos
+                url: aero/pd/products
+                icon: icon-cart-arrow-down
+            menuExtraList:
+                label: Extras
+                url: aero/pd/extras
+                icon: icon-cart-plus
+    menuMarketing:
+        label: Marketing
+        url: aero/pd/coupons
+        icon: icon-line-chart
+        sideMenu:
+            menuMarketingCoupons:
+                label: Cupones
+                url: aero/pd/coupons
+                icon: icon-tag
+    menuFleet:
+        label: Flota
+        url: aero/pd/drivers
+        icon: icon-motorcycle
+        sideMenu:
+            menuFleetDrivers:
+                label: Conductores
+                url: aero/pd/drivers
+                icon: icon-users
+            menuFleetVehicles:
+                label: Vehículos
+                url: aero/pd/vehicles
+                icon: icon-car

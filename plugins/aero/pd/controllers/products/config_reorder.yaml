@@ -1,0 +1,4 @@
+title: Products
+modelClass: Aero\Pd\Models\Products
+toolbar:
+    buttons: reorder_toolbar

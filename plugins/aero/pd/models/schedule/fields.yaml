@@ -1,0 +1,45 @@
+fields:
+    day:
+        label: Día
+        oc.commentPosition: ''
+        options:
+            1: Lunes
+            2: Martes
+            3: Miércoles
+            4: Jueves
+            5: Viernes
+            6: Sábado
+            7: Domingo
+            8: Feriados
+        span: auto
+        type: dropdown
+    branch:
+        label: Sucursal
+        oc.commentPosition: ''
+        nameFrom: branch
+        descriptionFrom: description
+        span: auto
+        type: relation
+    hour_open:
+        label: 'Horario de apertura'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        type: datepicker
+    hour_close:
+        label: 'Horario de cierre'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        type: datepicker
+    delivery_options:
+        label: 'Opciones de Delivery'
+        oc.commentPosition: ''
+        options:
+            delivery_offline: 'Aceptar pedidos fuera de horario de funcionamiento'
+            paymentos_online: 'Aceptar pago en línea'
+            cash_on_delivery: 'Aceptar pago contra entrega'
+            punctuality: 'Activar reto de puntualidad'
+        span: auto
+        disabled: 0
+        type: checkboxlist

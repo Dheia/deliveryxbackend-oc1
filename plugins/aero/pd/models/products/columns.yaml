@@ -1,0 +1,48 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    product:
+        label: Producto
+        type: text
+        searchable: true
+        sortable: true
+    branch_id:
+        label: Sucursal
+        type: text
+        searchable: true
+        sortable: true
+        relation: branches
+        select: branch
+    price:
+        label: Precio
+        type: number
+        searchable: true
+        sortable: true
+    stock_day:
+        label: 'Stock para delivery'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Creado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Actualizado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    featured:
+        label: Destacado
+        type: switch
+        searchable: true
+        sortable: true
+    public:
+        label: Público
+        type: switch
+        searchable: true
+        sortable: true

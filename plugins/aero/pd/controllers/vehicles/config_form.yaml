@@ -1,0 +1,10 @@
+name: Vehicles
+form: $/aero/pd/models/vehicles/fields.yaml
+modelClass: Aero\Pd\Models\Vehicles
+defaultRedirect: aero/pd/vehicles
+create:
+    redirect: 'aero/pd/vehicles/update/:id'
+    redirectClose: aero/pd/vehicles
+update:
+    redirect: aero/pd/vehicles
+    redirectClose: aero/pd/vehicles

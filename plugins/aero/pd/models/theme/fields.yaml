@@ -1,0 +1,45 @@
+fields:
+    theme:
+        label: Tema
+        oc.commentPosition: ''
+        nameFrom: value
+        descriptionFrom: description
+        span: left
+        type: relation
+    active:
+        label: 'Activar personalización'
+        span: auto
+        type: switch
+    section1:
+        label: General
+        span: full
+        type: section
+    logo:
+        label: Logo
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    favicon:
+        label: Favicon
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    section2:
+        label: Colores
+        span: full
+        type: section
+    theme_background_color:
+        label: 'Background Color'
+        oc.commentPosition: ''
+        span: left
+        type: colorpicker

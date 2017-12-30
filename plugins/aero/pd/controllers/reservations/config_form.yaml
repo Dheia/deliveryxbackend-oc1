@@ -1,0 +1,11 @@
+name: Reservations
+modelClass: Aero\Pd\Models\Reservations
+form: $/aero/pd/models/reservations/fields.yaml
+defaultRedirect: aero/pd/reservations
+create:
+    redirect: 'aero/pd/reservations/update/:id'
+    redirectClose: aero/pd/reservations
+update:
+    redirect: aero/pd/reservations
+    redirectClose: aero/pd/reservations
+preview: {  }

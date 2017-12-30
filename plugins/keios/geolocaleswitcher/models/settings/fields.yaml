@@ -1,0 +1,9 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    enabled:
+        label: keios.geolocaleswitcher::lang.settings.enabled
+        type: switch
+        comment: keios.geolocaleswitcher::lang.settings.enabled_desc

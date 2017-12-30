@@ -1,0 +1,11 @@
+name: Schedule
+modelClass: Aero\Pd\Models\Schedule
+form: $/aero/pd/models/schedule/fields.yaml
+defaultRedirect: aero/pd/schedule
+create:
+    redirect: 'aero/pd/schedule/update/:id'
+    redirectClose: aero/pd/schedule
+update:
+    redirect: aero/pd/schedule
+    redirectClose: aero/pd/schedule
+preview: {  }

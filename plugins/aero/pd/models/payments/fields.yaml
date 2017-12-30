@@ -1,0 +1,49 @@
+fields:
+    gateway:
+        label: Nombre
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: gateway
+            type: slug
+        type: text
+    description:
+        label: Descripción
+        size: huge
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    gateway_key:
+        label: Key
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    gateway_secret:
+        label: Secret
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    url_cancel:
+        label: 'URL tras cancelar'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    url_successful:
+        label: 'URL tras pago satisfactorio'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    email:
+        label: Email
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    public:
+        label: Público
+        span: auto
+        type: switch

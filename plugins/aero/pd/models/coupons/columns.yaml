@@ -1,0 +1,41 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    coupon:
+        label: Cupón
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Descripción
+        type: text
+        searchable: true
+        sortable: true
+    date_expiration:
+        label: 'Fecha de expiración'
+        type: datetime
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Creado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Actualizado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    public:
+        label: Public
+        type: switch
+        searchable: true
+        sortable: true
+    stock:
+        label: Stock
+        type: number
+        searchable: true
+        sortable: true

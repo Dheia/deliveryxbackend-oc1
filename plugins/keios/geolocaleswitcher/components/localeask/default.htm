@@ -1,0 +1,14 @@
+<div>
+    {% if detected_locales|length > 0 %}
+    <p>Considering you are visiting from <b>{{ detected_location['country'] }}</b>, you may want to read our website in
+        {% for iso,locale in detected_locales %}
+        <a href="/{{ iso }}{{ page_url }}">{{ locale }}</a>
+            {% if not loop.last %}
+                {% if loop.last -1 %}or{% else %}, {% endif %}
+            {% endif %}
+        {% endfor %}
+    </p>
+    {% else %}
+    We do not have language for your location, yet.
+    {% endif %}
+</div>

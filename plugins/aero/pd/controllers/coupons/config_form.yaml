@@ -1,0 +1,10 @@
+name: Coupons
+form: $/aero/pd/models/coupons/fields.yaml
+modelClass: Aero\Pd\Models\Coupons
+defaultRedirect: aero/pd/coupons
+create:
+    redirect: 'aero/pd/coupons/update/:id'
+    redirectClose: aero/pd/coupons
+update:
+    redirect: aero/pd/coupons
+    redirectClose: aero/pd/coupons

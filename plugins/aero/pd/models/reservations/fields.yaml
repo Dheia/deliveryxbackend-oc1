@@ -1,0 +1,58 @@
+fields:
+    item:
+        label: Item
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    branch:
+        label: Sucursal
+        oc.commentPosition: ''
+        nameFrom: branch
+        descriptionFrom: description
+        span: auto
+        type: relation
+    date_offer_start:
+        label: 'Fecha de inicio oferta'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        type: datepicker
+    date_offer_end:
+        label: 'Fecha límite de oferta'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        type: datepicker
+    price:
+        label: Precio
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    stock:
+        label: Stock
+        oc.commentPosition: ''
+        span: auto
+        default: '0'
+        type: number
+        comment: 'Dejar en cero para stock ilimitado'
+    photo:
+        label: Fotografía
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    description:
+        label: 'Rich editor'
+        size: huge
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    public:
+        label: Público
+        span: auto
+        default: 1
+        type: checkbox

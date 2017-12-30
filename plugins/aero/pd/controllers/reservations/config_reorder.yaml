@@ -1,0 +1,4 @@
+title: Reservations
+modelClass: Aero\Pd\Models\Reservations
+toolbar:
+    buttons: reorder_toolbar

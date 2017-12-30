@@ -1,0 +1,49 @@
+fields:
+    coupon:
+        label: 'Código de cupón'
+        span: auto
+        type: text
+        comment: 'Ej. PROMOMAYO, DIAMADRE, etc'
+    products:
+        label: Productos
+        nameFrom: product
+        descriptionFrom: description
+        span: auto
+        type: relation
+        commentAbove: 'Seleccione los productos para los que será válido el cupón'
+    stock:
+        label: Stock
+        span: auto
+        default: '0'
+        type: number
+        comment: 'Dejar en cero para activar ilimitadamente'
+    date_expiration:
+        label: 'Fecha y hora de expiración del cupón'
+        oc.commentPosition: ''
+        mode: datetime
+        span: left
+        type: datepicker
+    type:
+        label: 'Tipo de descuento'
+        oc.commentPosition: ''
+        options:
+            percent: 'Por porcentaje'
+            price: 'Por precio'
+        span: left
+        type: dropdown
+    discount:
+        label: Descuento
+        oc.commentPosition: ''
+        span: left
+        type: number
+    description:
+        label: Descripción
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    public:
+        label: Público
+        span: auto
+        default: 1
+        type: switch

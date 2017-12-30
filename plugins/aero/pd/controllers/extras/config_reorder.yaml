@@ -1,0 +1,4 @@
+title: Extras
+modelClass: Aero\Pd\Models\Extras
+toolbar:
+    buttons: reorder_toolbar

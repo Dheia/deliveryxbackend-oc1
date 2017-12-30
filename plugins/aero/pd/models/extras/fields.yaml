@@ -1,0 +1,42 @@
+fields:
+    extra:
+        label: 'Nombre de producto extra'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: extra
+            type: slug
+        type: text
+    price:
+        label: Precio
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    photo:
+        label: Fotografía
+        oc.commentPosition: ''
+        mode: image
+        imageHeight: 400
+        imageWidth: 400        
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    description:
+        label: Descripción
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    public:
+        label: Público
+        span: full
+        default: 1
+        type: switch

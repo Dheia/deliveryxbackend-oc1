@@ -1,0 +1,102 @@
+fields:
+    name:
+        label: Nombres
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    surename:
+        label: Apellidos
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    date_birthday:
+        label: 'Fecha de nacimiento'
+        mode: date
+        maxDate: '1999-01-01'
+        yearRange: '50'
+        span: auto
+        default: '1999-01-01'
+        type: datepicker
+        comment: 'Debe ser mayor a 18 años'
+    phone:
+        label: 'Número de celular'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    vehicle_type:
+        label: 'Tipo de vehículo'
+        oc.commentPosition: ''
+        nameFrom: vehicle
+        descriptionFrom: vehicle
+        span: auto
+        type: relation
+    vehicle_id:
+        label: 'Placa de vehículo'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    work_hour_start:
+        label: 'Horario de empiezo de trabajo'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        type: datepicker
+    work_hour_end:
+        label: 'Horario de finalización de trabajo'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        type: datepicker
+    work_alerts:
+        label: 'Enviar alertas de empiezo/finalización de horario de trabajo'
+        span: left
+        default: 1
+        type: switch
+    ratings:
+        label: 'Permitir que el conductor reciba calificaciones de clientes'
+        span: left
+        default: 1
+        type: switch
+    photo:
+        label: 'Fotografía de conductor'
+        oc.commentPosition: ''
+        mode: image
+        imageHeight: 260
+        imageWidth: 260
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    photo_vehicle:
+        label: 'Fotografía de vehículo'
+        oc.commentPosition: ''
+        mode: image
+        imageHeight: 260
+        imageWidth: 260
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    Tipo:
+        label: Tipo
+        oc.commentPosition: ''
+        options:
+            Interno: Interno
+            Externo: Externo
+        span: auto
+        type: dropdown
+    observations:
+        label: Observaciones
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    active:
+        label: Activo
+        span: auto
+        default: 1
+        type: switch

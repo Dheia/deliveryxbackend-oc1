@@ -1,0 +1,10 @@
+name: Theme
+modelClass: Aero\Pd\Models\Theme
+form: $/aero/pd/models/theme/fields.yaml
+defaultRedirect: aero/pd/theme
+create:
+    redirect: 'aero/pd/theme/update/:id'
+    redirectClose: aero/pd/theme
+update:
+    redirect: aero/pd/theme/update/1
+    redirectClose: backend

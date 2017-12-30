@@ -1,0 +1,14 @@
+<div class="callout callout-info no-subheader">
+	<div class="header">
+		<i class="icon-info"></i>
+		<h3>Instrucciones</h3>
+	</div>
+	<div class="content">
+		<ol>
+			<li>Ir a <a target="_blanck" href="https://developers.facebook.com/">https://developers.facebook.com/</a> y click en <b>Crear aplicación</b> en el menú  de <b>Aplicaciones</b>.</li>
+			<li>Ingrese el <b>Nombre</b> (puede ser nombre del sitio), llene los otros campos y <b>Crear aplicación</b></li>
+			<li>Copiar <b>App ID</b> y <b>App Secret</b> y pegue en las opciones de abajo.</li>
+			<li>En la pestaña de <b>Configuración</b> ingrese una <b>URL de redirección OAuth</b> a <span style="color:green"><?= URL::route('flynsarmy_sociallogin_provider', ['Facebook']) ?></span></li>
+		</ol>
+	</div>
+</div>

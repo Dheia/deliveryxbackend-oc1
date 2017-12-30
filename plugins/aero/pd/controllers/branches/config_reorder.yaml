@@ -1,0 +1,4 @@
+title: Branches
+modelClass: Aero\Pd\Models\Branches
+toolbar:
+    buttons: reorder_toolbar

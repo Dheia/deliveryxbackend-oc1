@@ -1,0 +1,47 @@
+fields:
+    branch:
+        label: Nombre
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: branch
+            type: slug
+        type: text
+    address:
+        label: Dirección
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    phone:
+        label: Teléfono
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    main:
+        label: 'Sucursal Principal'
+        span: auto
+        type: checkbox
+    public:
+        label: Público
+        span: auto
+        default: 1
+        type: switch
+    map:
+        label: 'Ubicación satelital'
+        span: full
+        commentAbove: 'Arrastre el marcador al lugar deseado, haga zoom moverse más rápido.'
+        type: location-selector
+        height: 450px
+        width: 100%
+    fleet:
+        label: 'Flota de delivery'
+        oc.commentPosition: ''
+        nameFrom: vehicle_id
+        descriptionFrom: description
+        span: auto
+        type: relation

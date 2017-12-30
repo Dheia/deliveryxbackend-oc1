@@ -1,0 +1,4 @@
+title: Coupons
+modelClass: Aero\Pd\Models\Coupons
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,53 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    item:
+        label: Item
+        type: text
+        searchable: true
+        sortable: true
+    branches_id:
+        label: Sucursal
+        type: number
+        searchable: true
+        sortable: true
+        select: branch
+        relation: branch
+    price:
+        label: Precio
+        type: number
+        searchable: true
+        sortable: true
+    stock:
+        label: Stock
+        type: number
+        searchable: true
+        sortable: true
+    date_offer_start:
+        label: 'Inicio de oferta'
+        type: date
+        searchable: true
+        sortable: true
+    date_offer_end:
+        label: 'Fin de oferta'
+        type: date
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Creado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Actualizado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    public:
+        label: Público
+        type: switch
+        searchable: true
+        sortable: true

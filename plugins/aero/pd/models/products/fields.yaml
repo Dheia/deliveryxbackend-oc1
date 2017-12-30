@@ -1,0 +1,129 @@
+fields:
+    product:
+        label: 'Nombre del producto'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: product
+            type: slug
+        type: text
+    branches:
+        label: Sucursal
+        oc.commentPosition: ''
+        nameFrom: branch
+        descriptionFrom: description
+        span: auto
+        type: relation
+    price:
+        label: Precio
+        span: auto
+        placeholder: ''
+        type: number
+    featured:
+        label: 'Producto destacado'
+        span: auto
+        type: checkbox
+    public:
+        label: Público
+        span: auto
+        default: 1
+        type: checkbox
+tabs:
+    fields:
+        description:
+            label: 'Descripción de producto'
+            size: huge
+            oc.commentPosition: ''
+            span: auto
+            type: richeditor
+            tab: Descripción
+        photos:
+            label: Fotografías
+            oc.commentPosition: ''
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Descripción
+        product_options:
+            label: 'Opciones gratuitas'
+            span: auto
+            placeholder: 'Ej. Ensalada, aderezos, etc.'
+            type: taglist
+            comment: 'Ingrese opciones gratuitas de producto separadas por comas.'
+            tab: Complementos
+        extras:
+            label: 'Extras de pago'
+            oc.commentPosition: ''
+            nameFrom: extra
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: Complementos
+        stock_day:
+            label: 'Stock diario de delivery'
+            span: auto
+            default: '0'
+            type: number
+            comment: 'Dejar en "0" para stock ilimitado'
+            tab: Stock
+        time_production:
+            label: 'Tiempo de producción'
+            oc.commentPosition: ''
+            prompt: 'Agregar otro'
+            span: auto
+            type: repeater
+            tab: Tiempos
+            form:
+                fields:
+                    time:
+                        label: 'Tiempo en minutos'
+                        oc.commentPosition: ''
+                        span: full
+                        type: number
+                    time_start:
+                        label: 'Desde horas'
+                        oc.commentPosition: ''
+                        mode: time
+                        span: auto
+                        type: datepicker
+                    time_end:
+                        label: 'Hasta horas'
+                        oc.commentPosition: ''
+                        mode: time
+                        span: auto
+                        type: datepicker
+        time_delivery:
+            label: 'Tiempo de entrega'
+            oc.commentPosition: ''
+            prompt: 'Agregar otro'
+            span: auto
+            type: repeater
+            tab: Tiempos
+            form:
+                fields:
+                    time:
+                        label: 'Tiempo en minutos'
+                        oc.commentPosition: ''
+                        mode: time
+                        span: full
+                        type: datepicker
+                    time_start:
+                        label: 'Desde horas'
+                        oc.commentPosition: ''
+                        span: auto
+                        type: number
+                    datepicker1:
+                        label: 'Hasta horas'
+                        oc.commentPosition: ''
+                        mode: datetime
+                        span: auto
+                        type: datepicker

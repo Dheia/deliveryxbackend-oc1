@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: 'Nombre'
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'Nombre del Api'
+        required: 1
+        type: text
+    endpoint:
+        label: 'URL'
+        oc.commentPosition: ''
+        span: auto
+        placeholder: api/v1/modulo
+        required: 1
+        type: text
+    description:
+        label: 'Descripción corta'
+        oc.commentPosition: ''
+        span: auto
+        placeholder: 'Descripción de esta Api'
+        type: text
+    model:
+        label: 'Seleccionar modelo'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: dropdown
+    custom_format:
+        label: 'Condición personalizda (Rellenable y relación)'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea

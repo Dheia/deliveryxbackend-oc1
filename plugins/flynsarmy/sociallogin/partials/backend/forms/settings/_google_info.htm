@@ -1,0 +1,15 @@
+<div class="callout callout-info no-subheader">
+	<div class="header">
+		<i class="icon-info"></i>
+		<h3>Instrucciones</h3>
+	</div>
+	<div class="content">
+		<ol>
+			<li>Ir a <a target="_blanck" href="https://console.developers.google.com/project">https://console.developers.google.com/project</a> y cree un nuevo proyecto.</li>
+			<li>Ir a <b>APIs &amp; Auth - APIs</b> y habilitar <b>Google+ API</b> y <b>Google+ Domains API</b></li>
+			<li>Ir a <b>APIs &amp; Auth - Credentials</b> y click en <b>Create new client ID</b>. Un popup llamado <b>"Create Client ID"</b> aparecerá.</li>
+			<li>Seleccionar <b>Web Application</b>. ingresar <b>Authorized JavaScript Origins</b> a <span style="color:green"><?= URL::to('') ?></span> y <b>Authorized Redirect URI</b> a <span style="color:green"><?= URL::route('flynsarmy_sociallogin_provider', ['Google']) ?></span></li>
+			<li>Click en <b>Create Client ID</b>.</li>
+		</ol>
+	</div>
+</div>

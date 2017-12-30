@@ -1,0 +1,34 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    mode_section:
+        label  : martin.adminer::lang.settings.mode
+        comment: martin.adminer::lang.settings.mode_comment
+        type   : section
+
+    mode:
+        type    : balloon-selector
+        default : 1
+        options :
+            1: martin.adminer::lang.settings.full_window
+            2: martin.adminer::lang.settings.iframe
+
+    autologin_section:
+        label   : martin.adminer::lang.settings.autologin
+        comment : martin.adminer::lang.settings.autologin_comment
+        type    : section
+        cssClass: m-t-md
+
+    autologin:
+        span      : left
+        type      : dropdown
+        showSearch: false
+        default   : 0
+        options   :
+            0     : Disabled
+            mysql : MySQL
+            pgsql : PostgreSQL
+            sqlite: SQLite

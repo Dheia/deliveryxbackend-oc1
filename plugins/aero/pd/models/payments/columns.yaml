@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    gateway:
+        label: 'Método de pago'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Creado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Actualizado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    public:
+        label: Público
+        type: switch
+        sortable: true

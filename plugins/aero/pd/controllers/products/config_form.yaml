@@ -1,0 +1,11 @@
+name: Products
+modelClass: Aero\Pd\Models\Products
+form: $/aero/pd/models/products/fields.yaml
+defaultRedirect: aero/pd/products
+create:
+    redirect: 'aero/pd/products/update/:id'
+    redirectClose: aero/pd/products
+update:
+    redirect: aero/pd/products
+    redirectClose: aero/pd/products
+preview: {  }

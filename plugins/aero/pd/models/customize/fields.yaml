@@ -1,0 +1,199 @@
+tabs:
+    fields:
+        contact_address:
+            label: Dirección
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: Contactos
+        contact_phone_2:
+            label: 'Teléfono secundario'
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: Contactos
+        contact_phone:
+            label: Telefono
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: Contactos
+        contact_email:
+            label: Email
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: Contactos
+        contact_whatsapp:
+            label: 'Número de Whatsapp'
+            span: left
+            type: text
+            comment: 'Incluir +591 si quiere recibir conversaciones internacionales'
+            tab: Contactos
+        system_reservations_switch:
+            label: 'Habilitar reservaciones'
+            span: left
+            type: switch
+            tab: Sistema
+        system_reviews_switch:
+            label: 'Habilitar calificaciones de usuarios'
+            span: left
+            type: switch
+            tab: Sistema
+        web_comments_switch:
+            label: 'Permitir comentarios'
+            span: left
+            default: 1
+            type: switch
+            tab: Website
+        website_integration_mode_switch:
+            label: 'Mostrar dentro de otra web'
+            span: left
+            default: 1
+            type: switch
+            tab: Website
+        web_multilanguage_switch:
+            label: Multilenguaje
+            span: left
+            default: 1
+            type: switch
+            tab: Website
+        delivery_opendelivery_switch:
+            label: 'Habilitar Open Delivery'
+            span: left
+            type: switch
+            tab: Delivery
+        delivery_own_switch:
+            label: 'Flota propia'
+            span: left
+            type: switch
+            comment: 'Su propia flota de Delivery'
+            tab: Delivery
+        delivery_pimienta_switch:
+            label: 'Pimienta Club'
+            span: left
+            type: switch
+            comment: 'Permitir transporte de delivery de socios de Pimienta Club'
+            tab: Delivery
+        communication_sms_switch:
+            label: 'Activar alertas por SMS'
+            span: left
+            type: switch
+            tab: Comunicación
+        communication_push_switch:
+            label: 'Activar notificaciones Push'
+            span: left
+            type: switch
+            tab: Comunicación
+        communication_sms_remitant:
+            label: 'Remitente de SMS'
+            span: left
+            type: text
+            comment: 'Remitente alfanumérico sin espacios ni caracteres especiales'
+            tab: Comunicación
+        social_facebook_delivery_switch:
+            label: 'Delivery en Facebook'
+            span: left
+            type: switch
+            comment: 'Crea una versión de pedidos exclusiva para Facebook'
+            tab: Social
+        social_instagram_url:
+            label: Instagram
+            oc.commentPosition: ''
+            span: left
+            placeholder: 'URL de perfil de Instagram'
+            type: text
+            tab: Social
+        social_twitter_user:
+            label: 'Nombre de usuario en Twitter'
+            oc.commentPosition: ''
+            span: left
+            placeholder: 'Nombre de usuario de Twitter'
+            type: text
+            tab: Social
+        social_youtube_channel_url:
+            label: 'Canal de Youtube'
+            oc.commentPosition: ''
+            span: left
+            placeholder: 'URL del canal en Youtube'
+            type: text
+            tab: Social
+        social_facebook_page_url:
+            label: 'Página de Facebook'
+            oc.commentPosition: ''
+            span: left
+            placeholder: 'URL de página de Facebook'
+            type: text
+            tab: Social
+        mobile_appstore_url:
+            label: 'URL de aplicación en Appstore'
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: Móvil
+        mobile_google_play_url:
+            label: 'URL de aplicación en Google Play'
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: Móvil
+        marketing_mailchimp_switch:
+            label: 'Activar Mailchimp'
+            span: left
+            type: switch
+            tab: Marketing
+        marketing_mailchimp_apikey:
+            label: 'Mailchimp Apikey'
+            size: ''
+            oc.commentPosition: ''
+            span: left
+            type: textarea
+            tab: Marketing
+        analytics_google_code:
+            label: 'Código de Google Analytics'
+            size: ''
+            oc.commentPosition: ''
+            span: left
+            type: textarea
+            tab: Analíticas
+        analytics_facebook_code:
+            label: 'Código de Facebook Pixel'
+            size: ''
+            oc.commentPosition: ''
+            span: left
+            type: textarea
+            tab: Analíticas
+        support_chat_switch:
+            label: 'Chat en línea'
+            span: left
+            type: switch
+            tab: Soporte
+        support_messenger_switch:
+            label: 'Chat mediante Messenger'
+            span: left
+            type: switch
+            comment: 'Conecta con el mensajero de su página en Facebook'
+            tab: Soporte
+        payments_currency:
+            label: Moneda
+            oc.commentPosition: ''
+            options:
+                USD: 'Dólar americano'
+                BOB: Boliviano
+            span: left
+            type: dropdown
+            tab: Pagos
+        payments_options:
+            label: 'Métodos de pago'
+            oc.commentPosition: ''
+            options:
+                bank: 'Depósito o transferencia bancaria'
+                card: 'Tarjetas de débito y crédito'
+                mobile: 'Billeteras móviles'
+                paypal: Paypal
+                cash: 'Pago contra entrega'
+                pickup: 'Pago al recoger orden'
+                wallet: 'Pimienta Wallet'
+            span: left
+            type: checkboxlist
+            tab: Pagos

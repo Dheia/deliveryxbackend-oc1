@@ -1,0 +1,11 @@
+name: Extras
+modelClass: Aero\Pd\Models\Extras
+form: $/aero/pd/models/extras/fields.yaml
+defaultRedirect: aero/pd/extras
+create:
+    redirect: 'aero/pd/extras/update/:id'
+    redirectClose: aero/pd/extras
+update:
+    redirect: aero/pd/extras
+    redirectClose: aero/pd/extras
+preview: {  }

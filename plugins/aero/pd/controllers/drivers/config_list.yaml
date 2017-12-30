@@ -1,0 +1,11 @@
+list: $/aero/pd/models/drivers/columns.yaml
+modelClass: Aero\Pd\Models\Drivers
+title: Drivers
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'aero/pd/drivers/update/:id'

@@ -1,0 +1,33 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    branch_id:
+        label: Sucursal
+        type: text
+        searchable: true
+        sortable: true
+        relation: branch
+        select: branch
+    hour_open:
+        label: 'Hora de apertura'
+        type: time
+        searchable: true
+        sortable: true
+    hour_close:
+        label: 'Hora de cierre'
+        type: time
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Creado en'
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'Actualizado en'
+        type: datetime
+        searchable: true
+        sortable: true

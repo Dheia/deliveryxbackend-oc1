@@ -1,0 +1,11 @@
+name: Drivers
+modelClass: Aero\Pd\Models\Drivers
+form: $/aero/pd/models/drivers/fields.yaml
+defaultRedirect: aero/pd/drivers
+create:
+    redirect: 'aero/pd/drivers/update/:id'
+    redirectClose: aero/pd/drivers
+update:
+    redirect: aero/pd/drivers
+    redirectClose: aero/pd/drivers
+preview: {  }

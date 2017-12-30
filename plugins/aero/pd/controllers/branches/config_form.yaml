@@ -1,0 +1,11 @@
+name: Branches
+modelClass: Aero\Pd\Models\Branches
+form: $/aero/pd/models/branches/fields.yaml
+defaultRedirect: aero/pd/branches
+create:
+    redirect: 'aero/pd/branches/update/:id'
+    redirectClose: aero/pd/branches
+update:
+    redirect: aero/pd/branches
+    redirectClose: aero/pd/branches
+preview: {  }

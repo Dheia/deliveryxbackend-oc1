@@ -1,0 +1,11 @@
+fields:
+    vehicle:
+        label: 'Tipo de vehículo'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    public:
+        label: Publico
+        span: left
+        default: 1
+        type: switch
